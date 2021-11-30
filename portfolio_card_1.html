@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Portfolio_card</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+	<div class="header__wrapper">
+		<div class="header__container _container">
+			<a href="#" class="header__logo">
+				<img src="img/logo.png" alt="Logo">
+			</a>
+			<div class="header__menu menu">
+				<button type="button" class="menu__icon icon-menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+				<nav class="menu__body">
+					<ul class="menu__list">
+						<li class="menu__item"><a href="index.html" class="menu__link">HOME</a></li>
+						<li class="menu__item"><a href="about.html" class="menu__link">About</a></li>
+						<li class="menu__item"><a href="portfolio.html" class="menu__link">Portfolio</a></li>
+						<li class="menu__item"><a href="blog.html" class="menu__link">BLOG</a></li>
+						<li class="menu__item"><a href="contacts.html" class="menu__link">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div data-da=".menu__body, 767" class="header__search">
+				<div class="search-form">
+					<button type="submit" class="search-form__icon _icon-search"></button>
+					<form action="#" class="search-form__item">
+						<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="Search"
+							class="search-form__input">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+		<main class="page">
+			<section class="top">
+				<div class="top__image _ibg">
+					<img src="img/portfolio/portf_img.jpg" alt="image">
+				</div>
+				<div class="top__container _container">
+					<div class="top__content content content_left">
+						<h1 class="_scr-sector _anim-no-hide">LATEST PROJECTS</h1>
+						<h3 class="content__text content__text_left _scr-item _anim-no-hide">We Deliver Quality</h3>
+					</div>
+				</div>
+			</section>
+			<section class="card">
+				<div class="card__container _container">
+					<div class="card__controls controls-card">
+						<div class="controls-card__column ">
+							<a href="#" class="controls-card__link controls-card__link_previous">
+								<div class="controls-card__link_iconL _icon-arrow-no-circle"></div>
+								Previous
+							</a>
+							<a href="#" class="controls-card__link controls-card__link_next">
+								Next
+								<div class="controls-card__link_iconR _icon-arrow-no-circle"></div>
+							</a>
+						</div>
+						<div class="controls-card__column">
+							<a href="portfolio.html" class="controls-card__link controls-card__link_all">
+								<div class="controls-card__link_iconList _icon-list"></div>
+								Show all
+							</a>
+						</div>
+
+					</div>
+					<div class="card__row">
+						<div class="card__column">
+							<div class="card__item item-card">
+								<h2 class="item-card__title">Pereira Creative Agency</h2>
+								<h3 class="item-card__subtitle">Branding Design</h3>
+								<div class="item-card__data">
+									<div class="item-card__date">February 28, 2021</div>
+									<div class="item-card__likes">
+										<a href="#" class="item-card__icon _icon-heart-border"></a>
+										<div class="item-card__like"><span>324</span> likes</div>
+									</div>
+
+								</div>
+								<div class="item-card__text">
+									<p>
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+										tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+										quis nostrud exerci tation ullamcorper suscipit. Ut wisi enim ad minim veniam, quis
+										nostrud exerci tation ullamcorper suscipit.
+									</p>
+								</div>
+								<div class="item-card__role">
+									<p>Role On Project:</p>
+									<p>Project Designer, Lead Designer, Markerting Head</p>
+								</div>
+							</div>
+						</div>
+						<div class="card__column card__column_slider">
+							<div class="card__slider slider-card">
+								<div class="slider-card__swipe swipe slider-card__swiper">
+									<div class="slider-card__wrapper swiper-wrapper">
+										<div class="slider-card__slide swiper-slide"><img src="img/portfolio/card1.jpg" alt="">
+										</div>
+										<div class="slider-card__slide swiper-slide"><img src="img/portfolio/card2.jpg" alt="">
+										</div>
+										<div class="slider-card__slide swiper-slide"><img src="img/portfolio/card3.jpg" alt="">
+										</div>
+										<div class="slider-card__slide swiper-slide"><img src="img/portfolio/card4.jpg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="slider-card__swipe slider-card__nav">
+									<div class="slider-card__wrapper swiper-wrapper">
+										<div class="slider-card__slide swiper-slide"><img src="img/portfolio/card1.jpg" alt="">
+										</div>
+										<div class="slider-card__slide swiper-slide"><img src="img/portfolio/card2.jpg" alt="">
+										</div>
+										<div class="slider-card__slide swiper-slide"><img src="img/portfolio/card3.jpg" alt="">
+										</div>
+										<div class="slider-card__slide swiper-slide"><img src="img/portfolio/card4.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card__tags">
+						<p>Tags:</p>
+						<p>Mobile App, UI/UX design</p>
+					</div>
+					<div class="card__btn">
+						<div class="card__icon-share _icon-share"></div>
+						<p>share</p>
+					</div>
+					<div class="card__socials socials">
+						<a target="_blanck" href="https://www.facebook.com/"
+							class="socials__icon socials__icon_facebook _icon-facebook"></a>
+						<a target="_blanck" href="https://www.google.com/"
+							class="socials__icon socials__icon_google _icon-google"></a>
+						<a target="_blanck" href="https://twitter.com/"
+							class="socials__icon socials__icon_twitter _icon-twitter"></a>
+						<a target="_blanck" href="https://www.instagram.com/"
+							class="socials__icon socials__icon_in _icon-in"></a>
+						<a target="_blanck" href="https://dribbble.com/"
+							class="socials__icon socials__icon_dribble _icon-dribble"></a>
+						<a target="_blanck" href="https://www.pinterest.com/"
+							class="socials__icon socials__icon_pinterest _icon-pinterest"></a>
+						<a target="_blanck" href="https://www.instagram.com/"
+							class="socials__icon socials__icon_instagram _icon-instagram"></a>
+					</div>
+
+				</div>
+			</section>
+			<section class="works">
+				<div class="works__container _container">
+					<div class="works__title">Related Works</div>
+					<div class="works__text">
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+						euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+					</div>
+					<div class="works__row">
+						<div class="works__column">
+							<a target="_blanc" href="#" class="works__item _ibg">
+								<img src="img/portfolio/work_1.jpg" alt="image">
+							</a>
+						</div>
+						<div class="works__column">
+							<a target="_blanc" href="#" class="works__item _ibg">
+								<img src="img/portfolio/work_2.jpg" alt="image">
+							</a>
+						</div>
+						<div class="works__column">
+							<a target="_blanc" href="#" class="works__item _ibg">
+								<img src="img/portfolio/work_3.jpg" alt="image">
+							</a>
+						</div>
+					</div>
+
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+	<div class="footer__container">
+		<a href="#" class="footer__logo">
+			<img src="img/logo.png" alt="logo">
+		</a>
+		<div class="footer__socials">
+			<a target="_blanck" href="https://www.facebook.com/" class="footer__facebook _icon-facebook"></a>
+			<a target="_blanck" href="https://www.google.com/" class="footer__google _icon-google"></a>
+			<a target="_blanck" href="https://twitter.com/" class="footer__twitter _icon-twitter"></a>
+			<a target="_blanck" href="https://www.instagram.com/" class="footer__in _icon-in"></a>
+			<a target="_blanck" href="https://dribbble.com/" class="footer__dribble _icon-dribble"></a>
+			<a target="_blanck" href="https://www.pinterest.com/" class="footer__pinterest _icon-pinterest"></a>
+			<a target="_blanck" href="https://www.instagram.com/" class="footer__instagram _icon-instagram"></a>
+		</div>
+		<div class="footer__footer">
+			<p>
+				© 2021 <span>Mulitix Theme</span> by ThemeForces. All Rights
+				Reserved.
+			</p>
+		</div>
+	</div>
+</footer>
+	</div>
+	<!-- Swiper -->
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/vendors.min.js"></script>
+<script src="js/app.min.js"></script>
+</body>
+
+</html>
